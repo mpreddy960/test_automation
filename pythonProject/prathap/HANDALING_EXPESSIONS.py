@@ -1,0 +1,6 @@
+fell = open("born","r+")
+#print(fell.read())
+#print(fell.readline())
+print(fell.write("my goal is python job"))
+cell = open("born","w+")
+print(cell.write("house hold"))

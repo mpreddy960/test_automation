@@ -1,0 +1,10 @@
+ Service Name                     Status                      Type
+ system                           OK                          System
+ omd                              OK                          Process
+ adhd                             OK                          Process
+ postgres                         OK                          Process
+ psrv                             ERROR                          Process
+ tomcat                           OK                          Process
+ udppm                            OK                          Process
+ streamsnapd                      OK                          Process
+ fusededup                        OK                          Process
