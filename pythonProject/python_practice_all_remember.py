@@ -599,18 +599,36 @@ for i in range(len(l)):
 print("The smallest element in the list is ", min1)
 
 
-# creating empty list
-list1 = []
-
-# asking number of elements to put in list
-num = int(input("Enter number of elements in list: "))
-
-# iterating till num to append elements in list
-for i in range(1, num + 1):
-    ele = int(input("Enter elements: "))
-    list1.append(ele)
+# # creating empty list
+# list1 = []
+#
+# # asking number of elements to put in list
+# num = int(input("Enter number of elements in list: "))
+#
+# # iterating till num to append elements in list
+# for i in range(1, num + 1):
+#     ele = int(input("Enter elements: "))
+#     list1.append(ele)
 
 # print maximum element
 print("Smallest element is:", min(list1))
 
 
+# replace key place to value place
+
+dict = {"soak":"brought","lock":"pop","full":"push"}
+print(dict)
+fg = {value : key for key,value in dict.items()}
+print("print fg :::::",fg)
+
+fgf = {"phone":"number","looking":"georgeous"}
+print(fgf)
+#hj = {}
+# for keys,value in fgf.items():
+#     gh = hj.update("keys,value")
+#     print(gh)
+
+ascii_dict = {'A': 65, 'B': 66, 'C': 67, 'D': 68}
+# Reverse mapping
+new_dict = {value: key for key, value in ascii_dict.items()}
+print(new_dict)
