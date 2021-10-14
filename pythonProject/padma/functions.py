@@ -4,15 +4,25 @@ def rrrr(l):
             print("Welcome to python")
         else:
             print("sfsfsf")
-
-
 d = "rama1111110"
 rrrr(d)
+
+def you(m):
+    for i in m:
+        if i == 2:
+            print("it is there")
+        else:
+            print("it is not there")
+g = [2,3,4]
+you(g)
+
+
 
 
 def aa():
     s = [1, 3, 10]
     rrrr(s)
+    return s
 
 aa()
 
@@ -59,6 +69,11 @@ def high(name,age = 34):
 high(name='mikki')
 
 def klm(teddy):
+    """
+    gggggg
+    :param teddy:
+    :return:
+    """
     teddy = [2,3,4,5]
     print(teddy)
 

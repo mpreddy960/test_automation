@@ -82,7 +82,26 @@ def swapList(newList):
     newList[size - 1] = temp
     return newList
 # Driver code
+
+
 newList = [12, 35, 9, 56, 24]
+
+def v(f):
+    lf = len(f)
+    rt = f[0]
+    f[0] = f[lf-1]
+    f[lf-1] = rt
+    return f
+fg = [12,43,4,5]
+print("print fg  ::::",v(fg))
+
+
+def p(k,k1,k2):
+    k[k1],k[k2] = k[k2],k[k1]
+    return k
+gh = [1,2,3,4,5]
+l,m = 0,3
+print("print swap two places:::::",p(gh,l,m))
 
 #PRACTISE SWAPLIST
 def browse(better):
